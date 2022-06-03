@@ -1,0 +1,28 @@
+:root {
+  /*  hero background
+      footer background
+      information header text
+      quote text */
+  --color-dark-background: #1F2937;   
+
+  /* button color
+     call to action background */
+  --color-action: #3882F6;    
+  
+  /* Hero Main Text,
+     Header Logo */
+  --color-primary: #F9FAF8;
+
+  /* Hero Secondary Text
+     Header Link Text */
+  --color-secondary: #E5E7EB;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero-text {
+  font-size: 48pt;
+  font-weight: 900;
+}
