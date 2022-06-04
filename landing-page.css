@@ -55,6 +55,8 @@ a {
   gap: 48px;
 }
 .hero>div {
+  display: flex;
+  flex-direction: column;
   flex: 1;
 }
 .hero>div>h1 {
@@ -68,10 +70,15 @@ a {
   margin-bottom: 10px;
   margin-top: 0;
 }
+.hero>div>button {
+  align-self: start;
+}
 .hero>img {
-  background-color: var(--color-img-background);
+  /* background-color: var(--color-img-background); */
   color: white;
-  flex: 1;
+  flex-shrink: 0;
+  flex-grow: 0;
+  align-self: flex-start;
 }
 
 button {
